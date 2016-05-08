@@ -1,0 +1,52 @@
+* {
+  border: 1px dashed black;
+  font-family: 'Josefin Slab', serif;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.josefin-font {
+  font-family: 'Josefin Slab', serif;
+}
+.big-text {
+  width: 240px;
+  font-size: 60px;
+  overflow-wrap: break-word;
+  height: 10em;
+
+}
+.big-text p {
+  margin: 15px 60px 5px 25px;
+}
+img.circular {
+  border-radius: 50%;
+}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.close-button {
+  float: right;
+}
+.blocks {
+  margin: 20px;
+  width: 340px;
+}
+#block-1 {
+  background-color: grey;
+  text-align: center;
+}
+
+.section-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.section-footer div {
+  text-align: center;
+}
