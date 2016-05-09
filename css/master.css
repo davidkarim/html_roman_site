@@ -95,6 +95,9 @@ body {
 #surrender img {
   margin-bottom: 20px;
 }
+#surrender > p > span {
+  color: grey;
+}
 .secondary-section {
   margin-top: 280px;
 }
@@ -102,7 +105,8 @@ body {
   margin-top: 60px;
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 50%;
+  font-size: 60%;
+  color: grey;
 }
 .warfare-blocks span {
   float: right;
