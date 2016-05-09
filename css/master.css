@@ -125,8 +125,9 @@ img.center {
 }
 .close-button {
   float: right;
+  font-family: sans-serif;
 }
-.close-button:hover {
+.close-button:active {
   color: #69300E;
 }
 div#image-block #play-button {
