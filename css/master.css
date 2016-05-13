@@ -98,6 +98,19 @@ body {
 #surrender > p > span {
   color: grey;
 }
+#login-box, #upload-box {
+  display: none;
+  position: absolute;
+  top: 180px;
+  left: 410px;
+  width: 340px;
+  height: 220px;
+  z-index: 10;
+  padding-left: 20px;
+}
+#login-box {
+  display: none;
+}
 .secondary-section {
   margin-top: 280px;
 }
